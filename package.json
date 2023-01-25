@@ -1,0 +1,29 @@
+{
+  "name": "johnsonwebsite",
+  "version": "1.0.0",
+  "description": "My personal website -- soon to be hosted -- currently ran by local host",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorjohnson6/JohnsonWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorjohnson6/JohnsonWebsite/issues"
+  },
+  "homepage": "https://github.com/connorjohnson6/JohnsonWebsite#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
